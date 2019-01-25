@@ -1,15 +1,12 @@
-<widgetbot
-  server="419123358698045453"
-  channel="441344626574622721"
-  id="embed"
-></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async>
+  const crate = new Crate({
+    server: '419123358698045453',
+    channel: '441344626574622721'
+  })
 
-<script>
-  const embed = document.getElementById('embed')
-
-  /*embed.on('signIn', data => {
+  /*crate.notify('Test notification')
+  crate.on('signIn', data => {
     console.log(`Guest signed in as ${data.name}`)
-    embed.emit('sendMessage', 'Hello world')
+    crate.emit('sendMessage', 'Hello world')
   })*/
 </script>
