@@ -1,2 +1,15 @@
-<widgetbot server="419123358698045453" channel="441344626574622721" width="800" height="565" shard="https://cl2.widgetbot.io"></widgetbot>
-<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed" type="a4981adaf2499ac6ca0922e6-text/javascript"></script>
+<widgetbot
+  server="419123358698045453"
+  channel="441344626574622721"
+  id="embed"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+
+<script>
+  const embed = document.getElementById('embed')
+
+  /*embed.on('signIn', data => {
+    console.log(`Guest signed in as ${data.name}`)
+    embed.emit('sendMessage', 'Hello world')
+  })*/
+</script>
