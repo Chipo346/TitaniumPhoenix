@@ -36,6 +36,9 @@ $landingExampleURL = "https://old.reddit.com";
 
 /****************************** END CONFIGURATION ******************************/
 
+//Fix https
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') $_SERVER['HTTPS']='on';
+
 ob_start("ob_gzhandler");
 
 if (version_compare(PHP_VERSION, "5.4.7", "<")) {
