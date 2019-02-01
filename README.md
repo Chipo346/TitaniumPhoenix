@@ -1,7 +1,7 @@
 # TitaniumPhoenix
 A stylish proxy site with many features. Easy to modify and flows well.
 
-#### Other basic info
+#### Basic info
 
 I'm going to be updating this *hopefully* frequently and with new servers and some features. I know this isn't a super advanced thing but it's one of my first projects so yeah.
 
