@@ -5,7 +5,7 @@ RewriteRule ^somestring ./ [L,R]
 Redirect /surffreely.html /selection.html
 
 Redirect /forums.html /forum.html
-Redirect /contributors.html /theonesbehindthescenes.html
+Redirect /theonesbehindthescenes.html /contributors.html
 Redirect https://discord.gg/D3nejY8 https://discord.gg/knFZY4b
 DirectoryIndex index.html index.php
 
