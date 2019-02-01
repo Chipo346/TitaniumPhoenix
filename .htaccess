@@ -10,6 +10,11 @@ Redirect https://discord.gg/D3nejY8 https://discord.gg/knFZY4b
 DirectoryIndex index.html index.php
 
 RewriteEngine On
+
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
 #Heroku way
 RewriteCond %{HTTP:X-Forwarded-Proto} !https 
 
