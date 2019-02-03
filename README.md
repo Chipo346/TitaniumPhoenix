@@ -5,6 +5,7 @@ A stylish proxy site with many features. Easy to modify and flows well.
 
 I'm going to be updating this *hopefully* frequently and with new servers and some features. I know this isn't a super advanced thing but it's one of my first projects so yeah.
 
+For the YouTube proxy, you **need** an api key from Google with the *Youtube Data API v3* enabled. This needs to be placed in the *apikey* environment variable. This can be obtained at https://console.developers.google.com/.
 # Features
 
 #### Locally Stored and Hosted Proxy Server
