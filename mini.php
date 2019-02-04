@@ -286,7 +286,7 @@ if (isset($_POST["miniProxyFormAction"])) {
 }
 if (empty($url)) {
     if (empty($startURL)) {
-      die("<html><head><title>Titanium Proxy</title></head><body><h1>Welcome to miniProxy!</h1>miniProxy can be directly invoked like this: <a href=\"" . PROXY_PREFIX . $landingExampleURL . "\">" . PROXY_PREFIX . $landingExampleURL . "</a><br /><br />Or, you can simply enter a URL below:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Proxy It!\" /></form></body></html>");
+      die("<style> body{margin: 0px auto;text-align: center;} body {background-color: black ;} body {color: green;} h1 {color: purple;}></style><html><head><title>TitaniumNetwork Proxy</title></head><body><h1>Titanium Network Proxy V2</h1>	You can directly visit website URLs by doing the following: <a href=\"" . PROXY_PREFIX . $landingExampleURL . "\">" . PROXY_PREFIX . $landingExampleURL . "</a><br /><br />Or, you can simply enter a URL below:<br /><br /><form onsubmit=\"if (document.getElementById('site').value) { window.location.href='" . PROXY_PREFIX . "' + document.getElementById('site').value; return false; } else { window.location.href='" . PROXY_PREFIX . $landingExampleURL . "'; return false; }\" autocomplete=\"off\"><input id=\"site\" type=\"text\" size=\"50\" /><input type=\"submit\" value=\"Surf Freely!\" /></form><a>Many websites can be unblocked with this, including some games!</body></html>");
     } else {
       $url = $startURL;
     }
@@ -315,7 +315,7 @@ foreach ($whitelistPatterns as $pattern) {
   }
 }
 if (!$urlIsValid) {
-  die("Error: The requested URL was disallowed by the server administrator.");
+  die("Error: The requested URL was blocked by TitaniumNetwork");
 }
 
 $response = makeRequest($url);
