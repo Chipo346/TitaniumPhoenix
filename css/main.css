@@ -1,6 +1,7 @@
 #intro {
   background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
   background-size: cover;
+  margin-top: 50px;
 }
 
 .top-nav-collapse {background-color: #3949ab !important;}
