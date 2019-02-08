@@ -1,12 +1,3 @@
-img[alt*="www.freewebhostingarea.com"] {
-    display: none;}
-code made by Titanumnetwork, 
-img[alt="Free Web Hosting"]{display:none;}
-
-img[alt*="www.000webhost.com"] {
-    display: none;}
-code made by Titanumnetwork, 
-img[alt="www.000webhost.com"]{display:none;}
 
 #intro {
   background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
@@ -15,7 +6,7 @@ img[alt="www.000webhost.com"]{display:none;}
 
 img[alt*="www.freewebhostingarea.com"] {
     display: none;}
-code made by Titanumnetwork, 
+code made by Titanumnetwork,
 img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 
@@ -41,7 +32,7 @@ img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 img[alt*="www.freewebhostingarea.com"] {
     display: none;}
-code made by Titanumnetwork, 
+code made by Titanumnetwork,
 img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
 
 
