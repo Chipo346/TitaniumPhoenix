@@ -3,14 +3,6 @@
   background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
   background-size: cover;
 }
-
-img[alt*="www.freewebhostingarea.com"] {
-    display: none;}
-code made by Titanumnetwork,
-img[alt="www.freewebhostingarea.com/images/poweredby.png"]{display:none;}
-
-
-
 .top-nav-collapse {
   background-color: #3949ab !important;
 }
