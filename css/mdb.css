@@ -6303,7 +6303,10 @@ button:focus {
 
 .navbar {
   font-weight: 300;
-  padding-right: 1rem !important; }
+  padding-right: 1rem !important;
+  box-sizing: border-box;
+  height: 50px;
+}
   .navbar form input {
     margin: 0 5px 1px 8px;
     height: 1rem; }
