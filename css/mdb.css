@@ -1,3 +1,32 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Version: MDB Free 4.4.5
+ *
+ *
+ * Copyright: Material Design for Bootstrap
+ * https://mdbootstrap.com/
+ *
+ * Read the license: https://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: https://mdbootstrap.com/
+ *
+ * Getting started: https://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: https://mdbootstrap.com/templates/
+ *
+ * Support: https://mdbootstrap.com/support/
+ *
+ * Contact: office@mdbootstrap.com
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+/*********************
+  Mixins
+**********************/
 .mdb-color.lighten-5 {
   background-color: #D0D6E2 !important; }
 
@@ -6303,10 +6332,7 @@ button:focus {
 
 .navbar {
   font-weight: 300;
-  padding-right: 1rem !important;
-  box-sizing: border-box;
-  height: 70px;
-}
+  padding-right: 1rem !important; }
   .navbar form input {
     margin: 0 5px 1px 8px;
     height: 1rem; }
@@ -7118,10 +7144,19 @@ body.scrollable {
     margin-top: -40px; }
 
 .view {
+  overflow: hidden;
+  position: relative;
   cursor: default; }
   .view .mask {
     background-attachment: fixed; }
   .view .mask,
+  .view .full-bg-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0; }
   .view img, .view video {
     display: block;
     position: relative; }
@@ -7410,11 +7445,11 @@ body.scrollable {
 
 /*!
  * Waves v0.7.5
- * http://fian.my.id/Waves
- *
- * Copyright 2014-2016 Alfiana E. Sibuea and other contributors
- * Released under the MIT license
- * https://github.com/fians/Waves/blob/master/LICENSE
+ * http://fian.my.id/Waves 
+ * 
+ * Copyright 2014-2016 Alfiana E. Sibuea and other contributors 
+ * Released under the MIT license 
+ * https://github.com/fians/Waves/blob/master/LICENSE 
  */
 .waves-effect {
   position: relative;

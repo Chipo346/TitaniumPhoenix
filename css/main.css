@@ -1,15 +1,6 @@
 #intro {
-  padding-top: 100px;
-}
-
-html {
   background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
   background-size: cover;
-}
-
-body {
-  background: rgba(120, 52, 135, 0.4);
-  background: linear-gradient(25deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.31) 100%);
 }
 
 .top-nav-collapse {background-color: #3949ab !important;}
@@ -20,7 +11,8 @@ body {
 #intro .h6 {font-weight: 300; line-height: 1.7;}
 
 .hm-gradient .full-bg-img {
-
+  background: rgba(120, 52, 135, 0.4);
+  background: linear-gradient(25deg, rgba(42, 27, 161, 0.2), rgba(255, 10, 20, 0.31) 100%);
 }
 
 @media (max-width: 450px) {
