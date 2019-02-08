@@ -8,5 +8,5 @@ Redirect /theonesbehindthescenes.html /contributors.html
 DirectoryIndex index.html index.php
 
 RewriteCond %{ENV:HTTPS} ^true$
-RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !https 
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
